@@ -9,16 +9,16 @@ import com.example.examplemod.Experiment;
 import com.example.examplemod.Pmatch;
 import com.example.examplemod.Tmaze;
 
-@Mod(name = "Mindcrift", modid = ExampleMod.MODID, version = ExampleMod.VERSION)
+@Mod(name = "Mindcraft", modid = ExampleMod.MODID, version = ExampleMod.VERSION)
 public class ExampleMod
 {
-    public static final String MODID = "minecrift";
+    public static final String MODID = "mindcraft";
     public static final String VERSION = "1.0";
     
     @EventHandler
     public void init(FMLInitializationEvent event)
     {
-		System.out.println("STARTED MINECRIFT MOD!\n\n\n\n");
+		System.out.println("STARTED MINDCRAFT MOD!\n\n\n\n");
     }
     
     @EventHandler

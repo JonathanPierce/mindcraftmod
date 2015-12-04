@@ -51,7 +51,7 @@ public class Pmatch implements ICommand
     }
     
     icommandsender.addChatMessage(new ChatComponentText("Pmatch: [" + astring[0] + "]"));
-    
+    start();
   }
 
   @Override
